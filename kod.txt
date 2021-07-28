@@ -1,0 +1,8 @@
+
+client.on("message", function(message) {
+  const userID = "355145555518947339";
+    if (message.user === userID) {
+        message.react("🐄")
+        message.channel.send( 'yavşama beğen geç');
+    }
+});
